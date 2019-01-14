@@ -1,6 +1,13 @@
-*RedirectToSomeSite*
+Redirecting to Raspberry pi web server...
+
 <script type="text/javascript">
-if (window.location = "http://www.naik-naik.github.io") {
+function partA() {
+   window.setTimeout(partB,1000);   // run redirect 1 second later
+}
+
+function partB() {
+   if (window.location = "http://naik-naik.github.io") {
    window.location.href = 'http://www.ya.ru'; 
+   }
 }
 </script>
